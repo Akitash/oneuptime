@@ -53,7 +53,7 @@ Depending on your usage and budget, you can choose from different system require
     - 4 Core
     - 20 GB Disk
     - Docker and Docker Compose installed
-
+  - *Note: The disk space requirements listed above are for the OneUptime instance only. The docker images that are used to run OneUptime require about 20 GB of disk space by themselves and may vary in size depending on your architecture, such as x86_64, arm64, or armhf. You should also allocate enough disk space for both the docker images and the OneUptime instance, which may grow over time depending on your usage and settings.*
 
 #### Prerequisites for Single-Server Deployment
 Before you start the deployment process, please make sure you have:
